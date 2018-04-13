@@ -257,6 +257,7 @@ h3.jsx-3938282276 {
     float: left;
     margin-left: 10px;
     margin-top: 31px;
+    position: relative;
 }
 .mask{
     width:462px;
@@ -269,7 +270,7 @@ h3.jsx-3938282276 {
 .font{
     text-align: center;
     font-size: 18px;
-    line-height: 81px;
+    line-height: 65px;
 }
 .banner{
     width: 100%;
@@ -533,6 +534,63 @@ footer{
     margin-top: 443px;
 }
 .arw{
+    display: none;
+}
+.bg1{
+    width: 462px;
+    height: 392px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 131px;
+    left: 10px;
+    display: none;
+}
+.tx2{
+    position: relative;
+}
+.bg2{
+    width: 462px;
+    height: 392px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 131px;
+    left: 482px;
+    display: none;
+}
+.bg3{
+    width: 462px;
+    height: 392px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 131px;
+    left: 954px;
+    display: none;
+}
+.bg4{
+    width: 462px;
+    height: 392px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 553px;
+    left: 11px;
+    display: none;
+}
+.bg5{
+    width: 462px;
+    height: 392px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 553px;
+    left: 481px;
+    display: none;
+}
+.bg6{
+    width: 462px;
+    height: 392px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 553px;
+    left: 954px;
     display: none;
 }
 @media (max-width: 414px) {
@@ -818,6 +876,42 @@ footer{
         width: 97%;
         height: 97%;
     }
+    .bg1{
+        width: 414px;
+        height: 323px;
+        top:101px;
+        left: 0;
+    }
+    .bg2{
+        width: 414px;
+        height: 323px;
+        top: 439px;
+        left: 0;
+    }
+    .bg3{
+        width: 414px;
+        height: 323px;
+        top: 779px;
+        left: 0;
+    }
+    .bg4{
+        width: 414px;
+        height: 323px;
+        top: 1118px;
+        left: 0;
+    }
+    .bg5{
+        width: 414px;
+        height: 323px;
+        top: 1461px;
+        left: 0;
+    }
+    .bg6{
+        width: 414px;
+        height: 323px;
+        top: 1798px;
+        left: 0;
+    }
 }
 @media (max-width: 375px) {
     .pic1{
@@ -904,5 +998,23 @@ footer{
     }
     .section__bd2{
         width:367px;
+    }
+    .bg1{
+        width: 375px;
+    }
+    .bg2{
+        width: 375px;
+    }
+    .bg3{
+        width: 375px;
+    }
+    .bg4{
+        width: 375px;
+    }
+    .bg5{
+        width: 375px;
+    }
+    .bg6{
+        width: 375px;
     }
 }
