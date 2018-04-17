@@ -719,28 +719,28 @@ footer{
         width: 414px;
         height: 263px;
         background: url(../img/23af0f91-fce7-4922-8c3f-8fd787e14231.jpg) no-repeat;
-        background-size: 100%;
+        background-size: cover;
         margin-left: 0;
     }
     .pic2{
         width: 414px;
         height: 263px;
         background: url("../img/24dc4bd5-ec83-4447-ba99-a1c13f72ea1c.jpg") no-repeat;
-        background-size: 100%;
+        background-size: cover;
         margin-left: 0;
     }
     .pic3{
         width: 414px;
         height: 263px;
         background: url("../img/b962d67b-7fec-48cb-a259-1166fe33644d.jpg") no-repeat;
-        background-size: 100%;
+        background-size: cover;
         margin-left: 0;
     }
     .note{
         width: 45%;
         height: 39%;
         left: 0;
-        bottom: 20px;
+        bottom: 1px;
     }
     h3.jsx-3938282276{
         font-size: 18px;
@@ -783,11 +783,12 @@ footer{
     }
     .head h2{
         font-size: 33px;
-        padding-top: 7px;
+        padding-top: 32px;
     }
     .head p{
         line-height: 44px;
         font-size: 16px;
+        margin-top: 3px;
     }
     .item{
         width:375px;
@@ -807,11 +808,11 @@ footer{
         width: 44%;
         left: 1px;
         position: absolute;
-        bottom: 10px;
+        bottom: 2px;
     }
     .tip3{
         position: absolute;
-        bottom: 25px;
+        bottom: 2px;
     }
     .section__bd{
         margin-top: -3px;
@@ -921,6 +922,7 @@ footer{
 }
 @media (max-width: 375px) {
     .pic1{
+        background-size: 100%;
         width: 375px;
         margin-left: 0;
     }
@@ -929,18 +931,20 @@ footer{
         bottom: 34px;
     }
     .pic2{
+        background-size: 104%;
         margin-left: 0;
     }
     .tip2{
         position: absolute;
-        bottom: 44px;
+        bottom: 35px;
     }
     .pic3{
+        background-size: 106%;
         margin-left: 0;
     }
     .tip3{
         position: absolute;
-        bottom: 47px;
+        bottom: 34px;
     }
     .more.jsx-3938282276{
         margin-top: -38px;
@@ -1036,8 +1040,14 @@ footer{
     footer{
         bottom: -2201px;
     }
+    .font{
+        width:375px;
+    }
 }
 @media (max-width: 320px) {
+    .head h2{
+        margin-top: -44px;
+    }
     .more.jsx-3938282276{
         margin-left: -9px;
     }
@@ -1048,7 +1058,7 @@ footer{
         bottom: 69px;
     }
     .tip2{
-        bottom: 74px;
+        bottom: 68px;
     }
     .section__bd{
         width:320px;
@@ -1066,7 +1076,8 @@ footer{
         width: 311px;
     }
     .font{
-        width: 320px;;
+        width: 320px;
+        padding-left: 18px;
     }
     .section__bd2{
         width: 320px;;
